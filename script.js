@@ -8,8 +8,8 @@
 	
 	var sketch = document.querySelector('#sketch');
 	var sketch_style = getComputedStyle(sketch);
-	canvas.width = parseInt(sketch_style.getPropertyValue('width'));
-	canvas.height = parseInt(sketch_style.getPropertyValue('height'));
+	// canvas.width = parseInt(sketch_style.getPropertyValue('width'));
+	// canvas.height = parseInt(sketch_style.getPropertyValue('height'));
 		
 	// Load image
 	var img = new Image();
