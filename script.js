@@ -2,6 +2,8 @@
 	
   // get the canvas from html
 	var canvas = document.querySelector('#paint');
+	var heightRatio = 1.5;
+	canvas.height = canvas.width * heightRatio;
 
   // get the context
 	var ctx = canvas.getContext('2d');

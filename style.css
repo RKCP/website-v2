@@ -13,6 +13,10 @@ body {
 	position: relative;
 }
 
+#paint {
+	width: 100%;
+}
+
 #tmp_canvas {
 	position: absolute;
 	left: 0px; right: 0;
