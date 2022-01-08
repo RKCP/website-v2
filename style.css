@@ -3,14 +3,17 @@ html, body {
 	height: 100%;
 }
 
-body {
-  background-repeat: no-repeat;
-}
-
 #sketch {
 	border: 10px solid gray;
 	height: 100%;
 	position: relative;
+	background-image: url('');
+	background-repeat: no-repeat;
+	/* // targetBody.style.backgroundSize = "100% auto"; */
+	/* // targetBody.style.backgroundImage.width = "100%"; */
+	/* // targetBody.style.backgroundImage.height = "auto"; */
+	/* // targetBody/.style.background.width */
+	/* // targetBody.style.backgroundRepeat = "no-repeat"; */
 }
 
 #paint {
